@@ -1,4 +1,6 @@
 <main style="text-align:center" class="marco">
+    <?php require 'includes/Conectar.php'; ?>
+
     <h2><i><b>Datos de usuario</b></i></h2>
 
     <?php echo validar($fallos); ?>
